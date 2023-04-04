@@ -1,0 +1,74 @@
+.img-principal{
+    width: 100%;
+    height: 80vh;
+    background-image: url('/public/assets/banner-sabores.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-principal h1{
+    color: #fff;
+    font-size: 110px;
+    text-shadow: 5px 5px 2px #474747;
+    text-align: center;
+}
+.titulo-box{
+    text-align: center;
+    margin: 60px auto;
+}
+.secao-pag-sabores{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-sabores{
+    width: 300px;
+    height: 500px;
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 5px #e6e6e6;
+    border-radius: 10px;
+}
+.box-sabores img{
+    width: 300px;
+    height: 280px;
+}
+.box-sabores h3{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 26px;
+}
+.box-sabores p{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+@media (max-width: 768px){
+    .img-principal h1{
+        text-align: center;
+        font-size: 70px;
+    }
+    .box-sabores{
+        width: 500px;
+        height: 500px;
+    }
+}
+@media (max-width: 999px){
+    .box-sabores{
+        width: 600px;
+        height: 600px;
+    }
+    .box-sabores p{
+        font-size: 20px;
+    }
+}

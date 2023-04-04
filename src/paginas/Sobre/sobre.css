@@ -1,0 +1,63 @@
+.sobre-baner{
+    width: 100%;
+    height: 80vh;
+    background-image: url('/public/assets/banner-sobre.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-baner h1{
+    font-size: 110px;
+    color: #fff;
+    text-shadow: 5px 3px 5px #707070;
+}
+.sobre-pg-sobre{
+    width: 60%;
+    margin: 0 auto 100px auto;
+    padding: 5px;
+    text-align: center;
+}
+.sobre-pg-sobre h2{
+    margin-top:  90px;
+    font-size: 40px;
+}
+.sobre-pg-sobre h3{
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-style: italic;
+}
+.sobre-pg-sobre p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.img-final-sobre{
+    width: 100%;
+    height: auto;
+}
+.img-final-sobre img{
+    width: 50%;
+    height: 75vh;
+}
+@media(max-width: 950px){
+    .sobre-baner h1{
+        font-size: 80px;
+    }
+    .img-final-sobre img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+@media(max-width: 536px){
+    .sobre-baner h1{
+        font-size: 50px;
+    }
+}
+@media(max-width: 320px){
+    .sobre-baner h1{
+        font-size: 40px;
+    }
+}

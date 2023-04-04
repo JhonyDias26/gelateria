@@ -1,0 +1,47 @@
+.secao-eventos{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.secao-eventos .img-eventos{
+    width: 50%;
+    height: 50vh;
+}
+.img-eventos img{
+    width: 100%;
+    height: 100%;
+}
+.texto-eventos{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-eventos h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.texto-eventos h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.texto-eventos p{
+    width: 70%;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px){
+    .secao-eventos{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .secao-eventos .img-eventos{
+        width: 100%;
+        height: 400px;
+    }
+    .texto-eventos{
+        width: 100%;
+        height: 500;
+    }
+}
